@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <p>What is the “official” name of JavaScript?</p>
+  
+  <input type="text" id="input">
+  <button type="button" onclick="result()">Submit</button>
+<p id="screen"></p>
+
+<script>
+function result() {
+let input = document.getElementById("input").value;
+if ( input == 'ECMAScript') {
+  document.getElementById("screen").innerHTML= "Right!"
+} else {
+  document.getElementById("screen").innerHTML="Didn’t know? ECMAScript!"
+}
+}
+</script>
+
+</body>
+</html>
